@@ -1,21 +1,18 @@
 Config = {}
 
--- Algemene instellingen
-Config.UseBlips = false -- Als true, dan worden er blips gemaakt voor alle garages
--- Blip instellingen zijn verwijderd op verzoek van de gebruiker
+Config.UseBlips = false 
 
--- Marker instellingen
-Config.MarkerType = 36 -- Type marker voor garage toegang
-Config.MarkerColor = {r = 50, g = 50, b = 204, a = 100} -- Kleur van de marker (blauw)
-Config.MarkerSize = {x = 1.5, y = 1.5, z = 1.0} -- Grootte van de marker
-Config.MarkerRotation = true -- Draait de marker als true
+Config.MarkerType = 36
+Config.MarkerColor = {r = 50, g = 50, b = 204, a = 100}
+Config.MarkerSize = {x = 1.5, y = 1.5, z = 1.0}
+Config.MarkerRotation = true
 
-Config.DeleteMarkerType = 1 -- Type marker voor voertuig verwijderen
-Config.DeleteMarkerColor = {r = 255, g = 0, b = 0, a = 100} -- Kleur van de verwijder marker (rood)
-Config.DeleteMarkerSize = {x = 3.0, y = 3.0, z = 1.0} -- Grootte van de verwijder marker
+Config.DeleteMarkerType = 1 
+Config.DeleteMarkerColor = {r = 255, g = 0, b = 0, a = 100} 
+Config.DeleteMarkerSize = {x = 3.0, y = 3.0, z = 1.0}
 
-Config.DrawDistance = 10.0 -- Afstand waarop markers zichtbaar worden
-Config.InteractDistance = 2.0 -- Afstand waarop interactie mogelijk is
+Config.DrawDistance = 10.0
+Config.InteractDistance = 2.0
 
 Config.Garages = {
     [1] = {
